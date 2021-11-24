@@ -21,7 +21,7 @@ app.use(
   })
 );
 
-// Add GraphQL support
+// Add Apollo Server support
 const typeDefs = gql(
   fs.readFileSync("./schema.graphql", { encoding: "utf-8" })
 );
